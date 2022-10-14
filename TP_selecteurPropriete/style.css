@@ -1,0 +1,40 @@
+*{
+    padding: auto;
+}
+
+h1{
+    color: red;
+    font-size: 80px;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    font-size: 50px;
+}
+
+.colorArticle{
+    background-color: grey;
+}
+
+strong{
+    font-weight: normal;
+    color: #adda34;
+}
+
+em{
+    font-style: normal;
+    text-decoration: underline;
+    font-size: 20px;
+    color: orange;
+}
+
+p:not(.colorArticle){
+    background-color: pink;
+}
+
+#colorTitle {
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
