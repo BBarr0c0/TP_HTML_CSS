@@ -1,5 +1,5 @@
-*{
-    background-image: radial-gradient(#CCDAE0, #EDF2F4);
+body{
+    background-image: radial-gradient(circle at top center, #CCDAE0, #EDF2F4);
 }
 
 header{
