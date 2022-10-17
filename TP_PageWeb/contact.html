@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Page Web Contact</title>
+</head>
+<body>
+    <header>
+        <img src="imageEnTete.jpg" alt="imageNoirBlancShetland">
+        <h1>Bienvenu sur le site de Shepard !</h1>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Accueil</a></li>
+                <li><a href="./.html">Blog</a></li>
+                <li><a href="./.html">Gallerie</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <form method="POST" action="sorcellerie.php">
+           <fieldset>
+                <legend>Contactez moi je n'ai pas d'ami</legend>
+                <div>
+                    <label>Votre nom<span>*</span>:</label>
+                    <input required id="name" name="name" type="text" min="2" max="20" placeholder="Mettez votre nom ici">
+                </div>
+                <div>
+                    <label>Votre mail<span>*</span>:</label>
+                    <input required id="email" name="email" type="email" placeholder="Mettez votre email ici"
+                </div>
+                <div>
+                    <label>Laissez un commentaire:</label><br>
+                    <textarea placeholder="Blablablablablabla je raconte ma vie très intéressante ou donne mon avis indispensable" cols="70" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" checked>
+                    <label>Envoyez une copie par E-mail !</label>
+                </div>
+                <div>
+                    <input type="submit">
+                    <input type="reset">
+                </div>
+           </fieldset> 
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="Youpi">Menu 1</a></li>
+            <li><a href="Omae wa mo shindeiru">Menu 2</a></li>
+            <li><a href="Wesh sisi la famille">Menu 3</a></li>
+            <li><a href="Scoubidou">Menu 4</a></li>
+        </ul>
+    </footer>
+</body>
+</html>
