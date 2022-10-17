@@ -17,7 +17,7 @@ h3{
     color: #2B2D42;
     font-size: 30px;
     font-weight: bold;
-    text-decoration: dotted underline;
+    text-decoration: dotted underline; /*underline dashed serait un rendu plus fidèle à ton exemple*/
 }
 
 article{
