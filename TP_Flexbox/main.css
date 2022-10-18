@@ -1,0 +1,66 @@
+.dice{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px red solid;
+    border-radius: 25px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px red solid;
+    background-color: red;
+    border-radius: 10px;
+    align-self: center;
+}
+
+.dice > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+/*Methode laborieuse
+
+#d1{
+    align-items: center;
+    justify-content: center;
+}
+
+#d2{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#d3{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#d4 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#d5 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+#d6 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+} 
+
+*/
